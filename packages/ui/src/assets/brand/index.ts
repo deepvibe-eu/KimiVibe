@@ -5,6 +5,10 @@ import kimiAnimatedUrl from "../kimi_animated.png";
 import moonshotBlackUrl from "../moonshot_black.png";
 import moonshotWhiteUrl from "../moonshot_white.png";
 import ollamaUrl from "../Ollama.png";
+import claudeUrl from "../Claude.png";
+import claudeMarkUrl from "../Claude-mark.png";
+import miniMaxUrl from "../MiniMax.png";
+import miniMaxSplashUrl from "../MiniMax-splash.png";
 import { ZCODE_PRODUCT_FLAVOR } from "@zcode/shared";
 
 export const APP_LOGO_URL = (() => {
@@ -13,6 +17,10 @@ export const APP_LOGO_URL = (() => {
       return kimiAnimatedUrl;
     case "lama":
       return ollamaUrl;
+    case "klaus":
+      return claudeMarkUrl;
+    case "mini":
+      return miniMaxUrl;
     case "production":
     case "preview":
     case "deepseek":
@@ -27,6 +35,10 @@ export const ABOUT_MARK_URL = (() => {
       return kimiAnimatedUrl;
     case "lama":
       return ollamaUrl;
+    case "klaus":
+      return claudeUrl;
+    case "mini":
+      return miniMaxUrl;
     case "production":
     case "preview":
     case "deepseek":
@@ -41,6 +53,10 @@ export const STARTUP_MARK_URL = (() => {
       return kimiAnimatedUrl;
     case "lama":
       return ollamaUrl;
+    case "klaus":
+      return claudeMarkUrl;
+    case "mini":
+      return miniMaxSplashUrl;
     case "production":
     case "preview":
     case "deepseek":
@@ -55,10 +71,18 @@ export const EMPTY_STATE_MARK_LIGHT_URL =
     ? moonshotBlackUrl
     : ZCODE_PRODUCT_FLAVOR === "lama"
       ? ollamaUrl
-      : deepseekWhaleBlackUrl;
+      : ZCODE_PRODUCT_FLAVOR === "klaus"
+        ? claudeUrl
+        : ZCODE_PRODUCT_FLAVOR === "mini"
+          ? miniMaxSplashUrl
+          : deepseekWhaleBlackUrl;
 export const EMPTY_STATE_MARK_DARK_URL =
   ZCODE_PRODUCT_FLAVOR === "kimi"
     ? moonshotWhiteUrl
     : ZCODE_PRODUCT_FLAVOR === "lama"
       ? ollamaUrl
-      : deepseekWhaleWhiteUrl;
+      : ZCODE_PRODUCT_FLAVOR === "klaus"
+        ? claudeUrl
+        : ZCODE_PRODUCT_FLAVOR === "mini"
+          ? miniMaxSplashUrl
+          : deepseekWhaleWhiteUrl;
