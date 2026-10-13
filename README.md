@@ -14,7 +14,19 @@ The *Vibe* family ships one focused app per provider (DeepVibe for DeepSeek, Kim
 
 ## Downloads
 
-Installers for macOS, Windows and Linux are published under [Releases](../../releases). The built-in updater checks this repository.
+Installers for macOS, Windows and Linux are on the [releases page](../../releases); the newest release is always tagged **latest**:
+
+| Platform | Files |
+| --- | --- |
+| macOS (Apple Silicon) | `KimiVibe-<version>-mac-arm64.dmg` · `KimiVibe-<version>-mac-arm64.zip` |
+| Windows | `KimiVibe-<version>-win-x64.exe` |
+| Linux | `KimiVibe-<version>-linux-x86_64.AppImage` · `KimiVibe-<version>-linux-amd64.deb` · `KimiVibe-<version>-linux-x86_64.rpm` · `KimiVibe-<version>-linux-x64.pkg.tar.zst` |
+
+Every app in the *Vibe* family is released with the **same version number** (currently 1.0.3). The built-in updater checks this repository's latest release.
+
+> **macOS (Apple Silicon):** the build is **unsigned** (no paid Apple Developer Program), so Gatekeeper
+> warns on first launch. The app is ad-hoc signed — open it once via **right-click → Open**, or run
+> `xattr -dr com.apple.quarantine "/Applications/KimiVibe.app"`.
 
 ## Building from source
 
