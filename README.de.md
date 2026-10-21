@@ -3,7 +3,7 @@
 # KimiVibe
 
 <div align="center">
-  <img src="packages/desktop/build/README-images/KimiVibe_en.png" alt="KimiVibe Screenshot" width="auto" />
+  <img src="packages/desktop/build/README-images/KimiVibe_en.png" alt="KimiVibe screenshot" width="auto" />
 </div>
 
 <p align="right">
@@ -12,11 +12,11 @@
 
 KimiVibe ist der **Kimi-Build** der *Vibe*-Familie — ein Fork von ZCode, der sich auf einen einzigen Anbieter konzentriert: **Kimi** (Moonshot AI). Ein Modell, ein Arbeitsbereich, ein Partner — kein Agent.
 
-Die *Vibe*-Familie liefert eine fokussierte App pro Anbieter (DeepVibe für DeepSeek, KimiVibe für Kimi, LamaVibe für Ollama, MiniVibe für MiniMax, KlausVibe für Claude, …), jede mit ihrem eigenen Charakter. Sie existiert **neben** ZCode, nicht an dessen Stelle: ZCode für den Multi-Provider-Workflow, die Vibe-Apps für Menschen, die ein Modell, einen Arbeitsbereich, einen Partner wollen. Den vollständigen Codebestand findest du im Hauptquellcode-Repository.
+Die *Vibe*-Familie liefert eine fokussierte App pro Anbieter (DeepVibe für DeepSeek, KimiVibe für Kimi, LamaVibe für Ollama, MiniVibe für MiniMax, KlausVibe für Claude, …), jede mit ihrem eigenen Charakter. Sie existiert **neben** ZCode, nicht anstelle davon: ZCode für den Multi-Provider-Workflow, die Vibe-Apps für alle, die ein Modell, einen Arbeitsbereich, einen Partner wollen. Den vollständigen Codebestand findest du im Hauptquellcode-Repository.
 
 ## Downloads
 
-Installer für macOS, Windows und Linux findest du auf der [Releases-Seite](../../releases); die neueste Version ist immer mit **latest** getaggt:
+Installer für macOS, Windows und Linux findest du auf der [Releases-Seite](../../releases); das neueste Release ist immer mit **latest** getaggt:
 
 | Plattform | Dateien |
 | --- | --- |
@@ -44,4 +44,4 @@ ZCODE_KIMI_IDENTITY=1 pnpm bundle:desktop -- --os linux --arch x64
 
 ## Lizenz & Namensnennung
 
-Basiert auf ZCode (Apache-2.0); die Lizenz und der NOTICE-Hinweis bleiben erhalten. KimiVibe ist ein unabhängiges Projekt und steht in keiner Verbindung zu ZCode/Z.ai, Kimi/Moonshot oder deren jeweiligen Eigentümern. Kimi ist eine Marke ihres Eigentümers; das Logo wird mit Erlaubnis des Betreibers verwendet.
+Basiert auf ZCode (Apache-2.0); Lizenz und NOTICE bleiben erhalten. KimiVibe ist ein unabhängiges Projekt und steht in keiner Verbindung zu ZCode/Z.ai, Kimi/Moonshot oder deren jeweiligen Eigentümern. Kimi ist eine Marke ihres Eigentümers; das Logo wird mit Erlaubnis des Betreibers verwendet.
