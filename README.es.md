@@ -24,10 +24,10 @@ Los instaladores para macOS, Windows y Linux están en la [página de releases](
 | Windows | `KimiVibe-<version>-win-x64.exe` |
 | Linux | `KimiVibe-<version>-linux-x86_64.AppImage` · `KimiVibe-<version>-linux-amd64.deb` · `KimiVibe-<version>-linux-x86_64.rpm` · `KimiVibe-<version>-linux-x64.pkg.tar.zst` |
 
-Todas las aplicaciones de la familia *Vibe* se publican con el **mismo número de versión** (actualmente 1.0.8). El actualizador integrado comprueba la última release de este repositorio.
+Todas las aplicaciones de la familia *Vibe* se publican con el **mismo número de versión** (actualmente 1.0.8). El actualizador integrado comprueba la última versión de este repositorio.
 
 > **macOS (Apple Silicon):** la build **no está firmada** (sin Apple Developer Program de pago), por lo que Gatekeeper
-> muestra una advertencia en el primer arranque. La aplicación está firmada de forma ad-hoc — ábrela una vez mediante **clic derecho → Abrir**, o ejecuta
+> muestra una advertencia en el primer inicio. La aplicación está firmada de forma ad-hoc — ábrela una vez mediante **clic derecho → Abrir**, o ejecuta
 > `xattr -dr com.apple.quarantine "/Applications/KimiVibe.app"`.
 
 ## Compilar desde el código fuente
@@ -36,12 +36,12 @@ Requiere Git, Node.js **24.14.0** y pnpm **10.33.2** (consulta `mise.toml`).
 
 ```bash
 pnpm bootstrap
-# ejecutar la variante KimiVibe en modo desarrollo
+# run the KimiVibe flavor in dev
 pnpm dev:desktop:kimi
-# empaquetar (variante KimiVibe)
+# package (KimiVibe flavor)
 ZCODE_KIMI_IDENTITY=1 pnpm bundle:desktop -- --os linux --arch x64
 ```
 
 ## Licencia y atribución
 
-Construido sobre ZCode (Apache-2.0); la licencia y el NOTICE se conservan. KimiVibe es un proyecto independiente y no está afiliado a ZCode/Z.ai, Kimi/Moonshot ni a sus respectivos propietarios. Kimi es una marca registrada de su propietario; el logotipo se utiliza con el permiso del operador.
+Basado en ZCode (Apache-2.0); la licencia y el NOTICE se conservan. KimiVibe es un proyecto independiente y no está afiliado a ZCode/Z.ai, Kimi/Moonshot ni a sus respectivos propietarios. Kimi es una marca registrada de su propietario; el logotipo se utiliza con el permiso del operador.
