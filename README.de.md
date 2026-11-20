@@ -3,7 +3,7 @@
 # KimiVibe
 
 <div align="center">
-  <img src="packages/desktop/build/README-images/KimiVibe_en.png" alt="KimiVibe screenshot" width="auto" />
+  <img src="packages/desktop/build/README-images/KimiVibe_en.png" alt="KimiVibe Screenshot" width="auto" />
 </div>
 
 <p align="right">
@@ -12,7 +12,7 @@
 
 KimiVibe ist der **Kimi-Build** der *Vibe*-Familie — ein Fork von ZCode, der sich auf einen einzigen Anbieter konzentriert: **Kimi** (Moonshot AI). Ein Modell, ein Arbeitsbereich, ein Partner — kein Agent.
 
-Die *Vibe*-Familie liefert eine fokussierte App pro Anbieter (DeepVibe für DeepSeek, KimiVibe für Kimi, LamaVibe für Ollama, MiniVibe für MiniMax, KlausVibe für Claude, …), jede mit ihrem eigenen Charakter. Sie existiert **neben** ZCode, nicht anstelle davon: ZCode für den Multi-Provider-Workflow, die Vibe-Apps für alle, die ein Modell, einen Arbeitsbereich, einen Partner wollen. Den vollständigen Codebestand findest du im Hauptquellcode-Repository.
+Die *Vibe*-Familie liefert eine fokussierte App pro Anbieter (DeepVibe für DeepSeek, KimiVibe für Kimi, LamaVibe für Ollama, MiniVibe für MiniMax, KlausVibe für Claude, …), jede mit ihrem eigenen Charakter. Sie existiert **neben** ZCode, nicht an dessen Stelle: ZCode für den Multi-Provider-Workflow, die Vibe-Apps für alle, die ein Modell, einen Arbeitsbereich, einen Partner wollen. Den vollständigen Codebestand findest du im Hauptquellcode-Repository.
 
 ## Downloads
 
@@ -24,7 +24,7 @@ Installer für macOS, Windows und Linux findest du auf der [Releases-Seite](../.
 | Windows | `KimiVibe-<version>-win-x64.exe` |
 | Linux | `KimiVibe-<version>-linux-x86_64.AppImage` · `KimiVibe-<version>-linux-amd64.deb` · `KimiVibe-<version>-linux-x86_64.rpm` · `KimiVibe-<version>-linux-x64.pkg.tar.zst` |
 
-Jede App der *Vibe*-Familie wird mit der **gleichen Versionsnummer** veröffentlicht (derzeit 1.0.8). Der integrierte Updater prüft das neueste Release dieses Repositorys.
+Jede App der *Vibe*-Familie wird mit der **gleichen Versionsnummer** veröffentlicht (derzeit 1.0.8). Der integrierte Updater prüft das neueste Release dieses Repositories.
 
 > **macOS (Apple Silicon):** Der Build ist **unsigniert** (kein kostenpflichtiges Apple Developer Program), daher warnt Gatekeeper
 > beim ersten Start. Die App ist ad-hoc signiert — öffne sie einmal über **Rechtsklick → Öffnen** oder führe

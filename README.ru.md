@@ -3,20 +3,20 @@
 # KimiVibe
 
 <div align="center">
-  <img src="packages/desktop/build/README-images/KimiVibe_en.png" alt="KimiVibe screenshot" width="auto" />
+  <img src="packages/desktop/build/README-images/KimiVibe_en.png" alt="Скриншот KimiVibe" width="auto" />
 </div>
 
 <p align="right">
   <a href="https://deepvibe.eu/kimivibe">kimivibe.eu</a>
 </p>
 
-KimiVibe — это **сборка Kimi** из семейства *Vibe* — форк ZCode, ориентированный на одного провайдера: **Kimi** (Moonshot AI). Одна модель, одно рабочее пространство, партнёр — а не агент.
+KimiVibe — это **сборка Kimi** из семейства *Vibe*, форк ZCode, ориентированный на одного провайдера: **Kimi** (Moonshot AI). Одна модель, одно рабочее пространство, партнёр — а не агент.
 
 Семейство *Vibe* выпускает по одному специализированному приложению на каждого провайдера (DeepVibe для DeepSeek, KimiVibe для Kimi, LamaVibe для Ollama, MiniVibe для MiniMax, KlausVibe для Claude, …), каждое со своим характером. Оно существует **наряду** с ZCode, а не вместо него: ZCode — для работы с несколькими провайдерами, приложения Vibe — для тех, кому нужна одна модель, одно рабочее пространство, один партнёр. Полный код проекта см. в основном репозитории.
 
 ## Загрузки
 
-Установщики для macOS, Windows и Linux доступны на [странице релизов](../../releases); новейший релиз всегда помечен тегом **latest**:
+Установщики для macOS, Windows и Linux доступны на [странице релизов](../../releases); самый новый релиз всегда помечен тегом **latest**:
 
 | Платформа | Файлы |
 | --- | --- |
@@ -26,7 +26,7 @@ KimiVibe — это **сборка Kimi** из семейства *Vibe* — ф�
 
 Все приложения семейства *Vibe* выпускаются с **одинаковым номером версии** (сейчас 1.0.8). Встроенный механизм обновления проверяет последний релиз этого репозитория.
 
-> **macOS (Apple Silicon):** сборка **неподписанная** (нет платной программы Apple Developer Program), поэтому Gatekeeper
+> **macOS (Apple Silicon):** сборка **неподписана** (нет платной Apple Developer Program), поэтому Gatekeeper
 > предупреждает при первом запуске. Приложение подписано ad-hoc — откройте его один раз через **правый клик → Открыть** или выполните
 > `xattr -dr com.apple.quarantine "/Applications/KimiVibe.app"`.
 
@@ -44,4 +44,4 @@ ZCODE_KIMI_IDENTITY=1 pnpm bundle:desktop -- --os linux --arch x64
 
 ## Лицензия и атрибуция
 
-Проект основан на ZCode (Apache-2.0); лицензия и NOTICE сохранены. KimiVibe — независимый проект и не связан с ZCode/Z.ai, Kimi/Moonshot или их соответствующими владельцами. Kimi является товарным знаком своего владельца; логотип используется с разрешения оператора.
+Создано на основе ZCode (Apache-2.0); лицензия и NOTICE сохранены. KimiVibe — независимый проект, не связанный с ZCode/Z.ai, Kimi/Moonshot или их соответствующими владельцами. Kimi является товарным знаком своего владельца; логотип используется с разрешения оператора.
